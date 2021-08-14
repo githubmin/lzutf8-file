@@ -1,0 +1,30 @@
+{
+  "name": "lzutf8-file",
+  "version": "0.0.1",
+  "description": "CLI for compressing string with lzutf8.js to file.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lzutf8-file": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubmin/lzutf8-file.git"
+  },
+  "author": "daniel.ryu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubmin/lzutf8-file/issues"
+  },
+  "homepage": "https://github.com/githubmin/lzutf8-file#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "lzutf8": "^0.6.0",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">= 6.9.0"
+  }
+}
